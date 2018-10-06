@@ -29,10 +29,12 @@
     </header>
     <main class="page-main">
       <section class="food-promo">
-        <h1 class="food-promo__title">Функциональное питание для котов</h1>
-        <p class="food-promo__slogan">Занялся собой? Займись котом!</p>
-        <img class="food-promo__image" src="img/index-can-mobile@1x.png" width="280" height="271" alt="CatEnergy - Курица">
-        <a class="button food-promo__program-select" href="form.html">Подобрать программу</a>
+        <div class="food-promo__wrapper">
+          <h1 class="food-promo__title">Функциональное питание для котов</h1>
+          <p class="food-promo__slogan">Занялся собой? Займись котом!</p>
+          <img class="food-promo__image" src="img/index-can-mobile@1x.png" width="280" height="271" alt="CatEnergy - Курица">
+          <a class="button food-promo__program-select" href="form.html">Подобрать программу</a>
+        </div>
       </section>
       <section class="categories">
         <h2 class="visually-hidden">Категории программ</h2>
@@ -88,7 +90,7 @@
         </div>
         <div class="example-slider">
           <ul class="example-slider__list">
-            <li class="example-slider__item example-slider__item--before">
+            <li class="example-slider__item example-slider__item--before example-slider__item--checked">
               <img src="img/before-mobile@1x.png" width="320" height="240" alt="До начала программы">
             </li>
             <li class="example-slider__item example-slider__item--after">
@@ -97,6 +99,9 @@
           </ul>
           <div class="example-slider__toggle slider-control">
             <span class="slider-control__choice slider-control__choice--before">Было</span>
+            <div class="slider-control__area">
+              <div class="slider-control__indicator"></div>
+            </div>
             <span class="slider-control__choice slider-control__choice--after">Стало</span>
           </div>
         </div>

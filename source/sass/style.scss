@@ -1,2 +1,20 @@
-@import "typography.scss";
-@import "global.scss";
+@import "vendor/normalize.scss";
+@import "base/typography.scss";
+@import "base/global.scss";
+
+@import "components/button.scss";
+@import "components/page-header.scss";
+@import "components/logo.scss";
+@import "components/main-menu.scss";
+@import "components/main-nav.scss";
+@import "components/food-promo.scss";
+@import "components/categories.scss";
+@import "components/advantages.scss";
+@import "components/example.scss";
+@import "components/slider-control.scss";
+@import "components/example-slider.scss";
+@import "components/company.scss";
+@import "components/contacts.scss";
+@import "components/page-footer.scss";
+@import "components/social.scss";
+@import "components/copyright.scss";

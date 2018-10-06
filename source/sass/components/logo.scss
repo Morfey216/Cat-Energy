@@ -1,0 +1,29 @@
+.logo {
+  display: block;
+  width: 191px;
+  height: 38px;
+  cursor: pointer;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+  
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.logo--title {
+  display: block;
+  width: 128px;
+  height: 24px;
+  cursor: pointer;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+  
+  &:active {
+    opacity: 0.6;
+  }
+}

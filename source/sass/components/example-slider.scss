@@ -1,0 +1,22 @@
+.example-slider {
+  width: 320px;
+}
+
+.example-slider__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.example-slider__toggle {
+  padding-top: 35px;
+  padding-bottom: 39px;
+}
+
+.example-slider__item {
+  display: none;
+}
+
+.example-slider__item--checked {
+  display: block;
+}

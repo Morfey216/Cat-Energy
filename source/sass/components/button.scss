@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  width: 280px;
+  margin: 0 auto;
+  padding: 11px 0;
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #68b738;
+  border: none;
+  &:hover{
+    background-color: #5eaa2f;
+  }
+  &:active {
+    background-color: #5eaa2f;
+  }
+}
