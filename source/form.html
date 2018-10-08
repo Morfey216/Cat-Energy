@@ -3,24 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Кэт энерджи - Каталог</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo logo" href="index.html">
-        <img class="logo__image" src="img/logotype-mobile.svg" width="33" height="38" alt="Cat Logo">
-        Cat Energy
-      </a>
+      <div class="page-header__logo-wrapper">
+        <a class="page-header__logo logo" href="index.html">
+          <img class="logo__image" src="img/logo-mobile.svg" width="191" height="38" alt="Cat Energy Logo">
+        </a>
+      </div>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list main-menu">
-            <li class="main-menu__item main-menu__item--active">
+            <li class="main-menu__item">
               <a href="index.html">Главная</a>
             </li>
             <li class="main-menu__item">
               <a href="catalog.html">Каталог продукции</a>
             </li>
-            <li class="main-menu__item">
+            <li class="main-menu__item main-menu__item--active">
               <a>Подбор программы</a>
             </li>
           </ul>
@@ -53,15 +55,15 @@
           <legend class="visually-hidden">Выберите программу</legend>
           <ul class="program-select__list">
             <li class="program-select__item">
-              <input class="visually-hidden" type="radio" name="program-name" value="Похудение" id="weight-down" checked>
+              <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Похудение" id="weight-down" checked>
               <label class="program-select__description" for="weight-down">Похудение</label>
             </li>
             <li class="program-select__item">
-              <input class="visually-hidden" type="radio" name="program-name" value="Набор массы" id="weight-up">
+              <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Набор массы" id="weight-up">
               <label class="program-select__description" for="weight-up">Набор массы</label>
             </li>
             <li class="program-select__item">
-              <input class="visually-hidden" type="radio" name="program-name" value="Нужен совет" id="unknown">
+              <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Нужен совет" id="unknown" disabled>
               <label class="program-select__description" for="unknown">Не знаю (Нужен ваш совет)</label>
             </li>
           </ul>
@@ -87,19 +89,19 @@
           <legend class="additionally__title">Дополнительно</legend>
           <ul class="additionally__list">
             <li class="additionally__item">
-              <input class="visually-hidden" type="checkbox" name="sweetener" id="sweetener" checked>
+              <input class="visually-hidden program-select__checkbox" type="checkbox" name="sweetener" id="sweetener" checked>
               <label class="additionally__description" for="sweetener">Сахарозаменитель</label>
             </li>
             <li class="additionally__item">
-              <input class="visually-hidden" type="checkbox" name="water" id="water">
+              <input class="visually-hidden program-select__checkbox" type="checkbox" name="water" id="water">
               <label class="additionally__description" for="water">Питьевая вода</label>
             </li>
             <li class="additionally__item">
-              <input class="visually-hidden" type="checkbox" name="milk" id="milk">
+              <input class="visually-hidden program-select__checkbox" type="checkbox" name="milk" id="milk">
               <label class="additionally__description" for="milk">Молоко</label>
             </li>
             <li class="additionally__item">
-              <input class="visually-hidden" type="checkbox" name="vitamin" id="vitamin">
+              <input class="visually-hidden program-select__checkbox" type="checkbox" name="vitamin" id="vitamin" disabled>
               <label class="additionally__description" for="vitamin">Витамины</label>
             </li>
           </ul>
@@ -107,7 +109,7 @@
         <button class="program-selection__submit button" type="submit">Отправить заявку</button>
         <p class="program-selection__remark">* — Обязательные поля</p>
       </form>
-      <section class="contacts">
+      <section class="contacts contacts--inner-page">
         <div class="contacts__description company">
           <h3 class="company__invite">Приглашаем  к сотрудничеству  дилеров!</h3>
           <p class="company__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
@@ -116,7 +118,9 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a class="page-footer__logo logo--title" href="index.html">Cat Energy</a>
+      <a class="page-footer__logo logo--title" href="index.html">
+        <img class="logo__image" src="img/logo-footer.svg" width="128" height="24" alt="Cat Energy Logo">
+      </a>
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">

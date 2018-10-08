@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Кэт энерджи</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo logo">
-        <img class="logo__image" src="img/logotype-mobile.svg" width="33" height="38" alt="Cat Logo">
-        Cat Energy
-      </a>
+      <div class="page-header__logo-wrapper">
+        <a class="page-header__logo logo">
+          <img class="logo__image" src="img/logo-mobile.svg" width="191" height="38" alt="Cat Energy Logo">
+        </a>
+      </div>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
@@ -29,10 +31,12 @@
     </header>
     <main class="page-main">
       <section class="food-promo">
-        <h1 class="food-promo__title">Функциональное питание для котов</h1>
-        <p class="food-promo__slogan">Занялся собой? Займись котом!</p>
-        <img class="food-promo__image" src="http://placehold.it/280x270" width="280" height="270" alt="CatEnergy - Курица">
-        <a class="button food-promo__program-select" href="form.html">Подобрать программу</a>
+        <div class="food-promo__wrapper">
+          <h1 class="food-promo__title">Функциональное питание для котов</h1>
+          <p class="food-promo__slogan">Занялся собой? Займись котом!</p>
+          <img class="food-promo__image" src="img/index-can-mobile@1x.png" width="280" height="271" alt="CatEnergy - Курица">
+          <a class="button food-promo__program-select" href="form.html">Подобрать программу</a>
+        </div>
       </section>
       <section class="categories">
         <h2 class="visually-hidden">Категории программ</h2>
@@ -88,15 +92,18 @@
         </div>
         <div class="example-slider">
           <ul class="example-slider__list">
-            <li class="example-slider__item example-slider__item--before">
-              <img src="http://placehold.it/280x275" width="280" height="275" alt="До начала программы">
+            <li class="example-slider__item example-slider__item--before example-slider__item--checked">
+              <img src="img/before-mobile@1x.png" width="320" height="240" alt="До начала программы">
             </li>
             <li class="example-slider__item example-slider__item--after">
-              <img src="http://placehold.it/280x275" width="280" height="275" alt="После окончания программы">
+              <img src="img/after-mobile@1x.png" width="320" height="240" alt="После окончания программы">
             </li>
           </ul>
           <div class="example-slider__toggle slider-control">
             <span class="slider-control__choice slider-control__choice--before">Было</span>
+            <div class="slider-control__area">
+              <div class="slider-control__indicator"></div>
+            </div>
             <span class="slider-control__choice slider-control__choice--after">Стало</span>
           </div>
         </div>
@@ -110,7 +117,9 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a class="page-footer__logo logo--title">Cat Energy</a>
+      <a class="page-footer__logo logo--title">
+        <img class="logo__image" src="img/logo-footer.svg" width="128" height="24" alt="Cat Energy Logo">
+      </a>
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">

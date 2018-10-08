@@ -1,0 +1,38 @@
+.button {
+  display: inline-block;
+  width: 280px;
+  margin: 0 auto;
+  padding: 11px 0;
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #68b738;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.button--gray {
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+  background-color: #f2f2f2;
+
+  &:hover,
+  &:focus {
+    background-color: #ebebeb;
+  }
+
+  &:active {
+    color: rgba(68, 68, 68, 0.3);
+  }
+}

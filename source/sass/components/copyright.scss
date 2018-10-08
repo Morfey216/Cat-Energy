@@ -1,0 +1,32 @@
+.copyright {
+  width: 280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright__link {
+  width: 120px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: #444444;
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright__logo {
+  width: 27px;
+  height: 34px;
+
+  &:hover path {
+    fill: rgba(104, 183, 56, 1);
+  }
+
+  &:active path {
+    fill: rgba(104, 183, 56, 0.3);
+  }
+}
