@@ -13,10 +13,8 @@
   padding: 38px 20px 20px;
   margin-bottom: 20px;
   background-color: #f2f2f2;
-  
   &::before {
     content: "";
-    
     position: absolute;
     width: 50px;
     height: 50px;
@@ -24,15 +22,13 @@
     left: 22px;
     background-color: #68b738;
     border-radius: 50%;
-  }  
+  }
 }
 
 .categories__item--slim {
   position: relative;
-  
   &::after {
     content: "";
-    
     position: absolute;
     width: 35px;
     height: 49px;
@@ -40,15 +36,13 @@
     left: 30px;
     background-image: url("../img/icon-cat-slim.svg");
     background-repeat: no-repeat;
-  } 
+  }
 }
 
 .categories__item--fat {
   position: relative;
-  
   &::after {
     content: "";
-    
     position: absolute;
     width: 67px;
     height: 28px;
@@ -56,7 +50,7 @@
     left: 13px;
     background-image: url("../img/icon-cat-pro.svg");
     background-repeat: no-repeat;
-  } 
+  }
 }
 
 .categories__title {
@@ -82,10 +76,8 @@
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
-  
   &::after {
     content: "";
-    
     position: absolute;
     width: 24px;
     height: 11px;
@@ -94,13 +86,11 @@
     background-image: url("../img/icon-right-arrow-long.svg");
     background-repeat: no-repeat;
   }
-  
   &:hover::after {
     width: 33px;
     right: -46px;
     background-image: url("../img/icon-right-arrow-verylong.svg");
   }
-  
   &:active,
   &:active::after {
     opacity: 0.3;
