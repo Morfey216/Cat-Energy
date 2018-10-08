@@ -23,6 +23,7 @@
   min-height: 60px;
   padding-left: 80px;
   margin-bottom: 20px;
+
   &::before {
     content: "";
     position: absolute;
@@ -36,6 +37,7 @@
 
 .advantages__item--useful {
   position: relative;
+
   &::after {
     content: "";
     position: absolute;
@@ -51,6 +53,7 @@
 
 .advantages__item--fast {
   position: relative;
+
   &::after {
     content: "";
     position: absolute;
@@ -66,6 +69,7 @@
 
 .advantages__item--functionally {
   position: relative;
+
   &::after {
     content: "";
     position: absolute;
@@ -81,6 +85,7 @@
 
 .advantages__item--effect {
   position: relative;
+
   &::after {
     content: "";
     position: absolute;

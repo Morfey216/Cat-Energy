@@ -2,6 +2,7 @@
   width: 280px;
   margin: 0 auto;
 }
+
 .categories__list {
   margin: 0;
   padding: 0;
@@ -13,6 +14,7 @@
   padding: 38px 20px 20px;
   margin-bottom: 20px;
   background-color: #f2f2f2;
+
   &::before {
     content: "";
     position: absolute;
@@ -27,6 +29,7 @@
 
 .categories__item--slim {
   position: relative;
+
   &::after {
     content: "";
     position: absolute;
@@ -41,6 +44,7 @@
 
 .categories__item--fat {
   position: relative;
+
   &::after {
     content: "";
     position: absolute;
@@ -76,6 +80,7 @@
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
+
   &::after {
     content: "";
     position: absolute;
@@ -86,11 +91,13 @@
     background-image: url("../img/icon-right-arrow-long.svg");
     background-repeat: no-repeat;
   }
+
   &:hover::after {
     width: 33px;
     right: -46px;
     background-image: url("../img/icon-right-arrow-verylong.svg");
   }
+
   &:active,
   &:active::after {
     opacity: 0.3;

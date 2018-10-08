@@ -16,10 +16,12 @@
 
 .main-menu__item a {
   color: #111111;
+
   &:hover,
   &:focus {
     opacity: 0.6;
   }
+
   &:active {
     opacity: 0.3;
   }

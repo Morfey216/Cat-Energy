@@ -32,9 +32,11 @@
   text-transform: uppercase;
   border-bottom: 1px dotted rgba(17, 17, 17, 0.23);
   cursor: pointer;
+
   &:hover {
     border-bottom: 1px solid rgba(17, 17, 17, 0.4);
   }
+
   &:active {
     border-bottom: 1px solid transparent;
   }

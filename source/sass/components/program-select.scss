@@ -32,7 +32,7 @@
   content: "";
   position: absolute;
   top: -4px;
-  left: 0px;
+  left: 0;
   width: 30px;
   height: 30px;
   border: 1px solid #cdcdcd;
@@ -48,7 +48,7 @@
 .program-select__radio:disabled + label::before {
   border-color: #bababa;
   opacity: 0.3;
-  cursor:default;
+  cursor: default;
 }
 
 .program-select__radio:checked + label::after {

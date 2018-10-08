@@ -12,6 +12,7 @@
   font-size: 16px;
   line-height: 16px;
   color: #444444;
+
   &:active {
     opacity: 0.3;
   }
@@ -20,9 +21,11 @@
 .copyright__logo {
   width: 27px;
   height: 34px;
+
   &:hover path {
     fill: rgba(104, 183, 56, 1);
   }
+
   &:active path {
     fill: rgba(104, 183, 56, 0.3);
   }
