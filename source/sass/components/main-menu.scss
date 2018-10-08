@@ -16,7 +16,8 @@
 
 .main-menu__item a {
   color: #111111;
-  &:hover {
+  &:hover,
+  &:focus {
     opacity: 0.6;
   }
   &:active {

@@ -4,7 +4,8 @@
   height: 38px;
   cursor: pointer;
   
-  &:hover {
+  &:hover,
+  &:focus {
     opacity: 0.8;
   }
   
@@ -19,7 +20,8 @@
   height: 24px;
   cursor: pointer;
   
-  &:hover {
+  &:hover,
+  &:focus {
     opacity: 0.8;
   }
   

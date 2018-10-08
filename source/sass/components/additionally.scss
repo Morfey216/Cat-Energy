@@ -48,6 +48,18 @@
   border: 1px solid #cdcdcd;
 }
 
+.program-select__checkbox:hover + label::before,
+.program-select__checkbox:focus + label::before {
+  border-color: #bababa;
+}
+
+.program-select__checkbox:disabled + label,
+.program-select__checkbox:disabled + label::before {
+  border-color: #bababa;
+  opacity: 0.3;
+  cursor:default;
+}
+
 .program-select__checkbox:checked + label::after {
   content: "";
   position: absolute;
