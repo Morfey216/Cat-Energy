@@ -2,6 +2,18 @@
   display: none;
 }
 
-.main-nav__wrapper {
+.main-nav__list {
   width: 320px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__list {
+    width: 440px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__list {
+    width: 480px;
+  }
 }
