@@ -12,3 +12,45 @@
   height: 362px;
   border: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    width: $tablet-width;
+  }
+
+  .contacts__description {
+    padding: 0;
+    padding-top: 66px;
+    margin-bottom: 50px;
+    
+  }
+
+  .contacts__map {
+    width: $tablet-width;
+    height: 396px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    position: relative;
+    width: $desktop-width;
+  }
+
+  .contacts__description {
+    position: absolute;
+    box-sizing: border-box;
+    left: 110px;
+    top: 95px;
+    width: 570px;
+    margin: 0;
+    padding: 70px 76px;
+    padding-bottom: 54px;
+    background-color: #ffffff;
+  }
+  
+  .contacts__map {
+    width: $desktop-width;
+    height: 400px;
+  }
+}
