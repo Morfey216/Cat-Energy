@@ -35,40 +35,42 @@
       <form class="program-selection" action="https://echo.htmlacademy.ru" method="get">
         <h2 class="program-selection__title inner-page-title">Подбор программы</h2>
         <p class="program-selection__description">Заполните анкету и мы подберем программу питания для вашего кота</p>
-        <fieldset class="cat-data">
-          <legend class="visually-hidden">Данные кота</legend>
-          <ul class="cat-data__list">
-            <li class="cat-data__item">
-              <label class="cat-data__description" for="cat-name">Имя:*</label>
-              <input class="cat-data__value" name="cat-name" type="text" id="cat-name" placeholder="Барсик" required>
-            </li>
-            <li class="cat-data__item">
-              <label class="cat-data__description" for="cat-weight">Вес (кг):*</label>
-              <input class="cat-data__value" name="cat-weight" type="text" id="cat-weight" placeholder="7" required>
-            </li>
-            <li class="cat-data__item">
-              <label class="cat-data__description" for="cat-age">Возраст (лет):</label>
-              <input class="cat-data__value" name="cat-age" type="text" id="cat-age" placeholder="7">
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset class="program-select">
-          <legend class="visually-hidden">Выберите программу</legend>
-          <ul class="program-select__list">
-            <li class="program-select__item">
-              <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Похудение" id="weight-down" checked>
-              <label class="program-select__description" for="weight-down">Похудение</label>
-            </li>
-            <li class="program-select__item">
-              <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Набор массы" id="weight-up">
-              <label class="program-select__description" for="weight-up">Набор массы</label>
-            </li>
-            <li class="program-select__item">
-              <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Нужен совет" id="unknown" disabled>
-              <label class="program-select__description" for="unknown">Не знаю (Нужен ваш совет)</label>
-            </li>
-          </ul>
-        </fieldset>
+        <div class="program-selection__data-wrapper">
+          <fieldset class="cat-data">
+            <legend class="visually-hidden">Данные кота</legend>
+            <ul class="cat-data__list">
+              <li class="cat-data__item">
+                <label class="cat-data__description" for="cat-name">Имя:*</label>
+                <input class="cat-data__value" name="cat-name" type="text" id="cat-name" placeholder="Барсик" required>
+              </li>
+              <li class="cat-data__item">
+                <label class="cat-data__description" for="cat-weight">Вес (кг):*</label>
+                <input class="cat-data__value" name="cat-weight" type="text" id="cat-weight" placeholder="7" required>
+              </li>
+              <li class="cat-data__item">
+                <label class="cat-data__description" for="cat-age">Возраст (лет):</label>
+                <input class="cat-data__value" name="cat-age" type="text" id="cat-age" placeholder="7">
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="program-select">
+            <legend class="visually-hidden">Выберите программу</legend>
+            <ul class="program-select__list">
+              <li class="program-select__item">
+                <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Похудение" id="weight-down" checked>
+                <label class="program-select__description" for="weight-down">Похудение</label>
+              </li>
+              <li class="program-select__item">
+                <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Набор массы" id="weight-up">
+                <label class="program-select__description" for="weight-up">Набор массы</label>
+              </li>
+              <li class="program-select__item">
+                <input class="visually-hidden program-select__radio" type="radio" name="program-name" value="Нужен совет" id="unknown" disabled>
+                <label class="program-select__description" for="unknown">Не знаю (Нужен ваш совет)</label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
         <fieldset class="client-data">
           <legend class="client-data__title">Контактные данные (владельца кота)</legend>
           <ul class="client-data__list">
@@ -107,8 +109,10 @@
             </li>
           </ul>
         </fieldset>
-        <button class="program-selection__submit button" type="submit">Отправить заявку</button>
-        <p class="program-selection__remark">* — Обязательные поля</p>
+        <div class="program-selection__submit-wrapper">
+          <button class="program-selection__submit button" type="submit">Отправить заявку</button>
+          <p class="program-selection__remark">* — Обязательные поля</p>
+        </div>
       </form>
       <section class="contacts contacts--inner-page">
         <div class="contacts__description company">
