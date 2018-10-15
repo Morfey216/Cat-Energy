@@ -12,12 +12,14 @@
 }
 
 .cat-data__item {
-  margin-bottom: 14px;
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
   align-items: center;
 }
 
 .cat-data__description {
+  width: auto;
   flex-shrink: 0;
   font-size: 16px;
   line-height: 18px;
@@ -27,7 +29,6 @@
 
 .cat-data__value {
   width: 100%;
-  box-sizing: border-box;
   margin-left: 17px;
   padding: 13px 16px 14px 16px;
   color: #444444;
@@ -40,10 +41,12 @@
   }
 
   &:active {
+    padding: 12px 15px 13px 15px;
     border: 2px solid #444444;
   }
 
   &:invalid {
+    padding: 12px 15px 13px 15px;
     border: 2px solid #ff8282;
   }
 }

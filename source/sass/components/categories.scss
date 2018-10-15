@@ -69,10 +69,13 @@
 }
 
 .categories__description {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .categories__catalog-link {
@@ -123,6 +126,7 @@
   .categories__description {
     font-size: 16px;
     line-height: 24px;
+    border: none;
   }
 
   .categories__catalog-link {
