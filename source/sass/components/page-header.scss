@@ -1,3 +1,8 @@
+.page-header {
+  width: 320px;
+  margin: 0 auto;
+}
+
 .page-header__logo-wrapper {
   border-bottom: 1px solid rgba(17, 17, 17, 0.1);
 }
@@ -31,6 +36,6 @@
   .page-header {
     width: 1220px;
     margin-top: 54px;
-    margin-bottom: 29px;
+    margin-bottom: 75px;
   }
 }

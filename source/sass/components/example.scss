@@ -11,8 +11,13 @@
 
 @media (min-width: $desktop-width) {
   .example {
-    display: flex;
     padding-bottom: 75px;
     background-color: #ffffff;
+  }
+
+  .example__wrapper {
+    display: flex;
+    width: 1220px;
+    margin: 0 auto;
   }
 }

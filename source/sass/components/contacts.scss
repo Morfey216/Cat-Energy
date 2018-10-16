@@ -1,3 +1,7 @@
+.contacts {
+  width: 100%;
+}
+
 .contacts--inner-page {
   background-color: #f2f2f2;
 }
@@ -8,16 +12,12 @@
 }
 
 .contacts__map {
-  width: 320px;
+  width: 100%;
   height: 362px;
   border: 0;
 }
 
 @media (min-width: $tablet-width) {
-  .contacts {
-    width: $tablet-width;
-  }
-
   .contacts__description {
     padding: 0;
     padding-top: 66px;
@@ -25,7 +25,6 @@
   }
 
   .contacts__map {
-    width: $tablet-width;
     height: 396px;
   }
 }
@@ -33,7 +32,6 @@
 @media (min-width: $desktop-width) {
   .contacts {
     position: relative;
-    width: $desktop-width;
   }
 
   .contacts__description {
@@ -49,7 +47,6 @@
   }
 
   .contacts__map {
-    width: $desktop-width;
     height: 400px;
   }
 }

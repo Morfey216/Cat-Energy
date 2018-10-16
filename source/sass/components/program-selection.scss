@@ -1,24 +1,29 @@
 .program-selection {
-  width: 320px;
+  width: 100%;
   margin-bottom: 35px;
 }
 
 .program-selection__title {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px;
+  width: 280px;
+  margin: 30px auto;
 }
 
 .program-selection__description {
-  margin-left: 20px;
+  width: 280px;
+  margin: 30px auto;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
+.program-selection__submit-wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .program-selection__submit {
   width: 280px;
-  margin-left: 20px;
+  margin: 0 auto;
   cursor: pointer;
 }
 
@@ -44,8 +49,8 @@
   }
 
   .program-selection__title {
+    width: 708px;
     margin-bottom: 55px;
-    margin-left: 30px;
   }
 
   .program-selection__description {
@@ -61,7 +66,6 @@
     justify-content: space-between;
     align-items: center;
     width: 690px;
-    margin: 0 auto;
   }
 
   .program-selection__submit {
@@ -94,11 +98,11 @@
   }
 
   .program-selection__title {
-    margin-left: 110px;
+    margin-left: 40px;
   }
 
   .program-selection__description {
-    margin-left: 110px;
+    margin-left: 40px;
   }
 
   .program-selection__submit-wrapper {

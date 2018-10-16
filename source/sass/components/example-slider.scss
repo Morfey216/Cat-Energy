@@ -1,5 +1,6 @@
 .example-slider {
   width: 320px;
+  margin: 0 auto;
 }
 
 .example-slider__list {
@@ -15,6 +16,7 @@
 
 .example-slider__item {
   display: none;
+  margin: 0 auto;
 }
 
 .example-slider__item--checked {
@@ -23,7 +25,7 @@
 
 @media (min-width: $tablet-width) {
   .example-slider {
-    width: $tablet-width;
+    width: 708px;
   }
 
   .example-slider__toggle {
@@ -33,7 +35,7 @@
 
 @media (min-width: $desktop-width) {
   .example-slider {
-    width: 720px;
+    width: 610px;
   }
 
   .example-slider__toggle {

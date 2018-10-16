@@ -111,7 +111,6 @@
   }
 
   .additional-product__merge {
-    width: $tablet-width;
     padding: 0;
   }
 
@@ -122,6 +121,11 @@
     padding: 0;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .additional-product__wrapper {
+    width: $tablet-width;
+    margin: 0 auto;
   }
 
   .additional-product__title {
@@ -196,25 +200,22 @@
     margin-bottom: 85px;
   }
 
-  .additional-product__merge {
-    width: $desktop-width;
-    padding: 0;
-  }
-
   .additional-product__merge legend {
     margin-left: 70px;
   }
 
   .additional-product__wrapper {
+    width: $desktop-width;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     margin-top: 73px;
   }
 
   .additional-product__list {
     width: 895px;
     margin: 0;
-    margin-left: 110px;
+    margin-left: 40px;
   }
 
   .additional-product__item {
@@ -247,7 +248,7 @@
   .additional-product__promo {
     width: 245px;
     height: 289px;
-    margin: 0 auto;
+    margin: 0 40px;
     background-image: url("../img/gift-photo-desktop@1x.jpg");
 
     &::before {
