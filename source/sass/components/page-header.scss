@@ -1,3 +1,8 @@
+.page-header {
+  width: 320px;
+  margin: 0 auto;
+}
+
 .page-header__logo-wrapper {
   border-bottom: 1px solid rgba(17, 17, 17, 0.1);
 }
@@ -6,4 +11,31 @@
   margin-left: 20px;
   margin-top: 11px;
   margin-bottom: 16px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    width: 708px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .page-header__logo-wrapper {
+    border-bottom: none;
+  }
+
+  .page-header__logo {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    width: 1220px;
+    margin-top: 54px;
+    margin-bottom: 75px;
+  }
 }

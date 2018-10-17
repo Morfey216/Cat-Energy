@@ -1,0 +1,161 @@
+.example-story {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.example-story__title {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: normal;
+}
+
+.example-story__description {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.example-story__event-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  list-style: none;
+}
+
+.example-story__event-item {
+  position: relative;
+  width: 124px;
+  text-align: center;
+  border: 1px solid #cdcdcd;
+}
+
+.example-story__effect {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.example-story__effect-description {
+  width: 81px;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 0 3px;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #444444;
+  background-color: #f2f2f2;
+}
+
+.example-story__resume {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .example-story {
+    width: 708px;
+  }
+
+  .example-story__title {
+    margin-bottom: 65px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .example-story__description {
+    margin-bottom: 52px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .example-story__event-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .example-story__event-list {
+    width: 366px;
+    margin: 0;
+  }
+
+  .example-story__event-item {
+    width: 160px;
+  }
+
+  .example-story__resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 180px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .example-story__resume span {
+    padding: 5px 0;
+  }
+
+  .example-story__effect {
+    margin: 18px 0;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .example-story__effect-description {
+    width: 129px;
+    bottom: -20px;
+    padding: 0 3px;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example-story {
+    width: 610px;
+    margin: 0;
+  }
+
+  .example-story__title {
+    margin-bottom: 145px;
+  }
+
+  .example-story__description {
+    width: 435px;
+    margin-bottom: 70px;
+  }
+
+  .example-story__event-wrapper {
+    display: block;
+  }
+
+  .example-story__event-list {
+    margin-bottom: 58px;
+  }
+
+  .example-story__resume {
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    width: 325px;
+  }
+
+  .example-story__effect {
+    margin: 15px 0;
+  }
+
+  .example-slider__toggle {
+    margin-left: 40px;
+  }
+}

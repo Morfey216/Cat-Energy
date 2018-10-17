@@ -1,24 +1,29 @@
 .program-selection {
-  width: 320px;
+  width: 100%;
   margin-bottom: 35px;
 }
 
 .program-selection__title {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px;
+  width: 280px;
+  margin: 30px auto;
 }
 
 .program-selection__description {
-  margin-left: 20px;
+  width: 280px;
+  margin: 30px auto;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
+.program-selection__submit-wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .program-selection__submit {
   width: 280px;
-  margin-left: 20px;
+  margin: 0 auto;
   cursor: pointer;
 }
 
@@ -29,4 +34,90 @@
   line-height: 16px;
   color: #444444;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .program-selection {
+    width: $tablet-width;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 70px;
+  }
+
+  .program-selection__data-wrapper {
+    margin-bottom: 80px;
+  }
+
+  .program-selection__title {
+    width: 708px;
+    margin-bottom: 55px;
+  }
+
+  .program-selection__description {
+    width: 325px;
+    margin-left: 70px;
+    margin-bottom: 65px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .program-selection__submit-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 690px;
+  }
+
+  .program-selection__submit {
+    width: 283px;
+    margin: 0;
+    margin-left: 30px;
+  }
+
+  .program-selection__remark {
+    width: 315px;
+    margin: 0;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program-selection {
+    width: $desktop-width;
+    margin-bottom: 83px;
+  }
+
+  .program-selection__data-wrapper {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+
+  .program-selection__title {
+    margin-left: 40px;
+  }
+
+  .program-selection__description {
+    margin-left: 40px;
+  }
+
+  .program-selection__submit-wrapper {
+    justify-content: flex-start;
+    width: 1220px;
+  }
+
+  .program-selection__submit {
+    width: 570px;
+    margin: 0;
+    margin-right: 80px;
+  }
+
+  .program-selection__remark {
+    width: 315px;
+    margin: 0;
+  }
 }

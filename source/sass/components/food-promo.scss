@@ -1,9 +1,10 @@
-.food-promo {
-  min-height: 502px;
-  background-image: url("../img/index-background-mobile@1x.jpg");
-  /*background-color: #68b738;*/
-  background-repeat: no-repeat;
-  background-position: 0 0;
+@media (max-width: $tablet-width - 1) {
+  .food-promo {
+    background-image: url("../img/index-background-mobile@1x.jpg"), linear-gradient(to bottom, #68b738 0%, #68b738 100%);
+    background-size: 320px 305px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+  }
 }
 
 .food-promo__wrapper {
@@ -39,4 +40,89 @@
 
 .food-promo__program-select {
   margin: 5px 0 20px 0;
+}
+
+@media (min-width: $tablet-width) {
+  .food-promo {
+    width: 708px;
+    margin: 0 auto;
+  }
+
+  .food-promo__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin: 0;
+    margin-left: 90px;
+  }
+
+  .food-promo__title {
+    width: 420px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #111111;
+  }
+
+  .food-promo__slogan {
+    width: 420px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    color: #111111;
+  }
+
+  .food-promo__image {
+    order: 3;
+    width: 708px;
+    height: 609px;
+    margin-top: -85px;
+    z-index: -1;
+  }
+
+  .food-promo__program-select {
+    //position: absolute;
+    //left: 0;
+    //top: 255px;
+    width: 245px;
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .food-promo {
+    position: relative;
+    width: 1220px;
+    padding-bottom: 130px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 720px;
+      height: 696px;
+      bottom: 80px;
+      right: -110px;
+      background-image: url("../img/index-background-desktop@1x.jpg"), linear-gradient(to bottom, #68b738 0%, #68b738 100%);
+      background-size: 720px 696px;
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+  }
+
+  .food-promo__wrapper {
+    width: 570px;
+    margin-left: 80px;
+  }
+
+  .food-promo__image {
+    width: 552px;
+    height: 499px;
+    margin-top: -365px;
+    margin-left: 370px;
+    z-index: 0;
+  }
 }

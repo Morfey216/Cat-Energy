@@ -8,3 +8,27 @@
   margin-bottom: 35px;
   margin-left: 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .catalog {
+    width: $tablet-width;
+  }
+
+  .catalog__title {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog {
+    width: 1300px;
+  }
+
+  .catalog__title {
+    margin-top: 65px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+  }
+}

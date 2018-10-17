@@ -1,5 +1,6 @@
 .example-slider {
   width: 320px;
+  margin: 0 auto;
 }
 
 .example-slider__list {
@@ -15,8 +16,30 @@
 
 .example-slider__item {
   display: none;
+  margin: 0 auto;
 }
 
 .example-slider__item--checked {
   display: block;
+}
+
+@media (min-width: $tablet-width) {
+  .example-slider {
+    width: 708px;
+  }
+
+  .example-slider__toggle {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example-slider {
+    width: 610px;
+  }
+
+  .example-slider__toggle {
+    margin: 0;
+    margin-left: 40px;
+  }
 }
