@@ -13,21 +13,19 @@
           <img class="logo__image" src="img/logo-mobile.svg" width="191" height="38" alt="Cat Energy Logo">
         </a>
       </div>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list main-menu">
-            <li class="main-menu__item">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="main-menu__item main-menu__item--active">
-              <a>Каталог продукции</a>
-            </li>
-            <li class="main-menu__item">
-              <a href="form.html">Подбор программы</a>
-            </li>
-          </ul>
-        </div>
+      <nav class="main-nav main-nav--opened main-nav--nojs">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__list main-menu">
+          <li class="main-menu__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="main-menu__item main-menu__item--active">
+            <a>Каталог продукции</a>
+          </li>
+          <li class="main-menu__item">
+            <a href="form.html">Подбор программы</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="page-main">
@@ -319,6 +317,6 @@
         </div>
       </div>
     </footer>
-
+    <script src="js/menu-toggle.js"></script>
   </body>
 </html>
