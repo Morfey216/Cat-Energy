@@ -1,5 +1,6 @@
 .main-nav {
   position: relative;
+  border-top: 1px solid rgba(17, 17, 17, 0.1);
 }
 
 .main-nav__toggle {
@@ -14,10 +15,6 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
-}
-
-.main-nav--closed {
-  border-top: 1px solid rgba(17, 17, 17, 0.1);
 }
 
 .main-nav--closed .main-nav__toggle::before {
@@ -78,7 +75,7 @@
 }
 
 @media (min-width: $tablet-width) {
-  .main-nav--closed {
+  .main-nav {
     border-top: none;
   }
 

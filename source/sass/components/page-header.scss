@@ -25,7 +25,8 @@
   }
 
   .page-header__logo-wrapper {
-    border-bottom: none;
+    width: 173px;
+    margin: 0;
   }
 
   .page-header__logo {
@@ -38,5 +39,9 @@
     width: 1220px;
     margin-top: 54px;
     margin-bottom: 75px;
+  }
+
+  .page-header__logo-wrapper {
+    width: 245px;
   }
 }

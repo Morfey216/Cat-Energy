@@ -3,14 +3,19 @@
   margin-bottom: 35px;
 }
 
+.program-selection__data-wrapper {
+  margin-bottom: 42px;
+}
+
 .program-selection__title {
   width: 280px;
   margin: 30px auto;
 }
 
 .program-selection__description {
-  width: 280px;
+  width: 270px;
   margin: 30px auto;
+  padding-right: 10px;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -38,14 +43,9 @@
 
 @media (min-width: $tablet-width) {
   .program-selection {
-    width: $tablet-width;
     margin: 0 auto;
     margin-top: 45px;
     margin-bottom: 70px;
-  }
-
-  .program-selection__data-wrapper {
-    margin-bottom: 80px;
   }
 
   .program-selection__title {
@@ -55,10 +55,14 @@
 
   .program-selection__description {
     width: 325px;
-    margin-left: 70px;
+    padding-right: 305px;
     margin-bottom: 65px;
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .program-selection__data-wrapper {
+    margin-bottom: 97px;
   }
 
   .program-selection__submit-wrapper {
@@ -86,8 +90,19 @@
 
 @media (min-width: $desktop-width) {
   .program-selection {
-    width: $desktop-width;
     margin-bottom: 83px;
+  }
+
+  .program-selection__title {
+    width: 1220px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+  }
+
+  .program-selection__description {
+    margin: 0 auto;
+    margin-bottom: 55px;
+    padding-right: 895px;
   }
 
   .program-selection__data-wrapper {
@@ -95,14 +110,6 @@
     width: 1300px;
     margin: 0 auto;
     margin-bottom: 70px;
-  }
-
-  .program-selection__title {
-    margin-left: 40px;
-  }
-
-  .program-selection__description {
-    margin-left: 40px;
   }
 
   .program-selection__submit-wrapper {

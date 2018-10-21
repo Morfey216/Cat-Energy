@@ -37,8 +37,9 @@
   .contacts__description {
     position: absolute;
     box-sizing: border-box;
-    left: 110px;
     top: 95px;
+    left: 50%;
+    transform: translate(-610px, 0);
     width: 570px;
     margin: 0;
     padding: 70px 76px;
