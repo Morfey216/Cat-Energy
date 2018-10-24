@@ -124,8 +124,10 @@
 
 @media (min-width: $desktop-width) {
   .example-story {
-    width: 610px;
+    width: 570px;
     margin: 0;
+    margin-top: 30px;
+    margin-left: 40px;
   }
 
   .example-story__title {
@@ -155,7 +157,7 @@
     margin: 15px 0;
   }
 
-  .example-slider__toggle {
-    margin-left: 40px;
+  .example-story__effect-description {
+    background-color: #f2f2f2;
   }
 }

@@ -6,19 +6,21 @@
   .example {
     margin-top: 50px;
     background-color: #ffffff;
+    background-image: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 100%);
+    background-size: 100% 462px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
   }
 }
 
 @media (min-width: $desktop-width) {
   .example {
     margin: 0;
-    padding-bottom: 75px;
-    background-color: #ffffff;
   }
 
   .example__wrapper {
     display: flex;
-    width: 1220px;
+    width: 1300px;
     margin: 0 auto;
   }
 }

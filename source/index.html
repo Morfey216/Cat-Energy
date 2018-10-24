@@ -109,10 +109,18 @@
           <div class="example-slider">
             <ul class="example-slider__list">
               <li class="example-slider__item example-slider__item--before example-slider__item--checked">
-                <img src="img/before-mobile@1x.png" width="320" height="240" alt="До начала программы">
+                <picture>
+                  <source media="(min-width: 1300px)" srcset="img/before-desktop@1x.png">
+                  <source media="(min-width: 768px)" srcset="img/before-tablet@1x.png">
+                  <img class="example-slider__image" src="img/before-mobile@1x.png" alt="До начала программы">
+                </picture>
               </li>
               <li class="example-slider__item example-slider__item--after">
-                <img src="img/after-mobile@1x.png" width="320" height="240" alt="После окончания программы">
+                <picture>
+                  <source media="(min-width: 1300px)" srcset="img/after-desktop@1x.png">
+                  <source media="(min-width: 768px)" srcset="img/after-tablet@1x.png">
+                  <img class="example-slider__image" src="img/after-mobile@1x.png" alt="После окончания программы">
+                </picture>
               </li>
             </ul>
             <div class="example-slider__toggle slider-control">

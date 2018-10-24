@@ -19,6 +19,11 @@
   margin: 0 auto;
 }
 
+.example-slider__image {
+  width: 320px;
+  height: 240px;
+}
+
 .example-slider__item--checked {
   display: block;
 }
@@ -28,6 +33,11 @@
     width: 708px;
   }
 
+  .example-slider__image {
+    width: 690px;
+    height: 517px;
+  }
+
   .example-slider__toggle {
     margin: 0 auto;
   }
@@ -35,11 +45,11 @@
 
 @media (min-width: $desktop-width) {
   .example-slider {
-    width: 610px;
+    width: 690px;
   }
 
   .example-slider__toggle {
     margin: 0;
-    margin-left: 40px;
+    margin-left: 80px;
   }
 }
