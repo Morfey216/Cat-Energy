@@ -33,7 +33,11 @@
         <div class="food-promo__wrapper">
           <h1 class="food-promo__title">Функциональное питание для котов</h1>
           <p class="food-promo__slogan">Занялся собой? Займись котом!</p>
-          <img class="food-promo__image" src="img/index-can-mobile@1x.png" width="280" height="271" alt="CatEnergy - Курица">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="img/index-can-desktop@1x.png">
+            <source media="(min-width: 768px)" srcset="img/index-can-tablet@1x.jpg">
+            <img class="food-promo__image" src="img/index-can-mobile@1x.png" alt="CatEnergy - Курица">
+          </picture>
           <a class="button button--height food-promo__program-select" href="form.html">Подобрать программу</a>
         </div>
       </section>
