@@ -104,12 +104,13 @@
     width: $tablet-width;
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: flex-end;
   }
 
   .product__item {
     width: 324px;
     margin: 20px 30px;
+    margin-top: 45px;
     border: none;
   }
 
@@ -130,6 +131,7 @@
 
   .product__picture {
     width: 324px;
+    margin-bottom: 10px;
   }
 
   .product__image {
@@ -211,6 +213,7 @@
   .product__item {
     width: 245px;
     margin: 20px 40px;
+    margin-top: 45px;
   }
 
   .product__picture {
