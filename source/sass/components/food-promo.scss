@@ -16,7 +16,7 @@
   width: 280px;
   margin: 0;
   margin-bottom: 25px;
-  padding-top: 25px;
+  padding-top: 27px;
   font-weight: normal;
   font-size: 36px;
   line-height: 36px;
@@ -26,7 +26,7 @@
 
 .food-promo__slogan {
   width: 280px;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
   font-size: 14px;
   line-height: 14px;
   text-align: center;
@@ -41,7 +41,9 @@
 }
 
 .food-promo__program-select {
-  margin: 5px 0 20px 0;
+  margin: 3px 0 22px 0;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 @media (min-width: $tablet-width) {
@@ -60,9 +62,9 @@
   .food-promo__title {
     width: 420px;
     margin: 0;
-    margin-bottom: 15px;
-    margin-left: 90px;
-    padding-top: 25px;
+    margin-bottom: 21px;
+    margin-left: 89px;
+    padding-top: 34px;
     font-size: 60px;
     line-height: 60px;
     text-align: left;
@@ -71,7 +73,7 @@
 
   .food-promo__slogan {
     width: 420px;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
     margin-left: 90px;
     font-size: 20px;
     line-height: 20px;
@@ -88,7 +90,7 @@
     order: 3;
     width: 709px;
     height: 609px;
-    margin-top: -85px;
+    margin-top: -80px;
     z-index: -1;
   }
 
@@ -96,6 +98,8 @@
     width: 245px;
     margin: 0;
     margin-left: 90px;
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 
@@ -103,14 +107,14 @@
   .food-promo {
     position: relative;
     width: 100%;
-    padding-bottom: 130px;
+    padding-bottom: 135px;
 
     &::before {
       content: "";
       position: absolute;
       width: 50%;
       height: 696px;
-      bottom: 58px;
+      bottom: 80px;
       right: 0px;
       background-image: url("../img/index-background-desktop@1x.jpg"), linear-gradient(to bottom, #64a83b 0%, #64a83b 100%);
       background-size: 720px 696px, 100% 696px;
@@ -131,6 +135,10 @@
     margin-left: 80px;
   }
 
+  .food-promo__slogan {
+    margin-bottom: 53px;
+  }
+
   .food-promo__wrapper picture {
     z-index: 0;
   }
@@ -138,7 +146,7 @@
   .food-promo__image {
     width: 552px;
     height: 499px;
-    margin-top: -365px;
+    margin-top: -366px;
     margin-left: 450px;
     z-index: 0;
   }

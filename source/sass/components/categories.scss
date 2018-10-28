@@ -11,8 +11,8 @@
 
 .categories__item {
   position: relative;
-  padding: 38px 20px 20px;
-  margin-bottom: 20px;
+  padding: 36px 20px 21px;
+  margin-bottom: 18px;
   background-color: #f2f2f2;
 
   &::before {
@@ -60,8 +60,8 @@
 .categories__title {
   margin: 0;
   padding: 0;
-  margin-bottom: 38px;
-  padding-left: 72px;
+  margin-bottom: 36px;
+  padding-left: 71px;
   font-size: 24px;
   line-height: 24px;
   font-weight: normal;
@@ -69,8 +69,8 @@
 }
 
 .categories__description {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 19px;
+  padding-bottom: 22px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -114,7 +114,7 @@
 
   .categories__item {
     box-sizing: border-box;
-    padding: 75px 52px 60px;
+    padding: 76px 54px 60px;
   }
 
   .categories__title {
@@ -135,16 +135,16 @@
 
     &::after {
       top: 10px;
-      right: -50px;
+      right: -47px;
     }
 
     &:hover::after {
-      right: -59px;
+      right: -56px;
     }
   }
 }
 
-@media (min-width: $tablet-width) and (max-width: $desktop-width) {
+@media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
   .categories {
     width: 708px;
   }
@@ -157,7 +157,7 @@
       width: 200px;
       height: 200px;
       top: 92px;
-      left: 446px;
+      left: 448px;
     }
   }
 
@@ -184,7 +184,7 @@
   }
 
   .categories__description {
-    margin-bottom: 61px;
+    margin-bottom: 35px;
     width: 375px;
   }
 
@@ -205,7 +205,7 @@
 
   .categories__item {
     width: 570px;
-    margin-bottom: 82px;
+    margin-bottom: 74px;
 
     &::before {
       width: 100px;
@@ -237,10 +237,10 @@
     margin: 0;
     padding: 0;
     margin-bottom: 74px;
-    padding-left: 162px;
+    padding-left: 160px;
   }
 
   .categories__description {
-    margin-bottom: 33px;
+    margin-bottom: 9px;
   }
 }

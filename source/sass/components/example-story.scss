@@ -1,17 +1,22 @@
 .example-story {
   width: 280px;
   margin: 0 auto;
+  margin-bottom: 34px;
 }
 
 .example-story__title {
   margin: 0;
   padding: 0;
+  padding-top: 17px;
   font-size: 36px;
   line-height: 60px;
   font-weight: normal;
 }
 
 .example-story__description {
+  width: 275px;
+  margin-top: 23px;
+  margin-bottom: 25px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -22,19 +27,21 @@
   display: flex;
   justify-content: space-between;
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 34px;
   padding: 0;
   list-style: none;
 }
 
 .example-story__event-item {
   position: relative;
-  width: 124px;
+  width: 122px;
   text-align: center;
   border: 1px solid #cdcdcd;
 }
 
 .example-story__effect {
+  margin-top: 13px;
+  margin-bottom: 17px;
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
@@ -43,7 +50,7 @@
 .example-story__effect-description {
   width: 81px;
   position: absolute;
-  bottom: -25px;
+  bottom: -28px;
   left: 50%;
   transform: translate(-50%, 0);
   padding: 0 3px;
@@ -63,17 +70,20 @@
 
 @media (min-width: $tablet-width) {
   .example-story {
-    width: 708px;
+    width: 706px;
+    margin-bottom: 80px;
   }
 
   .example-story__title {
     margin-bottom: 65px;
+    padding: 0;
     font-size: 60px;
     line-height: 60px;
   }
 
   .example-story__description {
-    margin-bottom: 52px;
+    width: 690px;
+    margin-bottom: 53px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -107,14 +117,15 @@
   }
 
   .example-story__effect {
-    margin: 18px 0;
+    margin-top: 14px;
+    margin-bottom: 19px;
     font-size: 30px;
     line-height: 37px;
   }
 
   .example-story__effect-description {
     width: 129px;
-    bottom: -20px;
+    bottom: -21px;
     padding: 0 3px;
     font-size: 14px;
     line-height: 14px;
@@ -126,7 +137,7 @@
   .example-story {
     width: 570px;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 76px;
     margin-left: 40px;
   }
 

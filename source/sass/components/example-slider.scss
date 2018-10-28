@@ -10,8 +10,8 @@
 }
 
 .example-slider__toggle {
-  padding-top: 35px;
-  padding-bottom: 39px;
+  padding-top: 30px;
+  padding-bottom: 34px;
 }
 
 .example-slider__item {
@@ -36,20 +36,32 @@
   .example-slider__image {
     width: 690px;
     height: 517px;
+    margin-left: 17px;
+    margin-top: 7px;
   }
 
   .example-slider__toggle {
     margin: 0 auto;
+    padding-top: 17px;
+    padding-bottom: 73px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .example-slider {
     width: 690px;
+    padding-top: 22px;
+  }
+
+  .example-slider__image {
+    margin-left: 0;
+    margin-top: 0;
   }
 
   .example-slider__toggle {
     margin: 0;
     margin-left: 80px;
+    padding-top: 37px;
+    padding-bottom: 73px;
   }
 }

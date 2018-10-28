@@ -97,6 +97,10 @@
   }
 }
 
+.client-data__item:last-child input {
+  max-width: 146px;
+}
+
 @media (min-width: $tablet-width) {
   .client-data {
     width: 100%;

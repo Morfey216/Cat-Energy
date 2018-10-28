@@ -12,7 +12,7 @@
 
 .additional-product__merge legend {
   position: absolute;
-  top: -16px;
+  top: -17px;
   left: 50%;
   transform: translate(-160px, 0);
   text-align: left;
@@ -31,7 +31,7 @@
 }
 
 .additional-product__wrapper {
-  margin-top: 40px;
+  margin-top: 41px;
 }
 
 .additional-product__list {
@@ -52,8 +52,9 @@
 .additional-product__name {
   margin: 0;
   padding: 0;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 2px;
   font-size: 16px;
   line-height: 16px;
   color: #222222;
@@ -63,11 +64,17 @@
 
 .additional-product__specification {
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+  border-collapse: collapse;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 14px;
   color: #444444;
+}
+
+.additional-product__specifics,
+.additional-product__value {
+  padding: 0;
 }
 
 .additional-product__value {
@@ -95,7 +102,7 @@
     width: 55px;
     height: 60px;
     top: 65px;
-    left: 110px;
+    left: 113px;
     background-image: url("../img/icon-gift.svg");
     background-repeat: no-repeat;
     background-position: center, center;
@@ -105,7 +112,7 @@
 .additional-product__promo-text {
   width: 170px;
   margin: 0 auto;
-  padding-top: 190px;
+  padding-top: 187px;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -123,14 +130,14 @@
   }
 
   .additional-product__merge legend {
-    top: -26px;
+    top: -25px;
     transform: translate(-354px, 0);
   }
 
   .additional-product__wrapper {
     width: $tablet-width;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 91px;
   }
 
   .additional-product__title {
@@ -144,7 +151,7 @@
     width: 708px;
     margin: 0 auto;
     margin-top: 73px;
-    margin-bottom: 70px;
+    margin-bottom: 69px;
   }
 
   .additional-product__item {
@@ -159,6 +166,7 @@
 
   .additional-product__name {
     width: 325px;
+    padding-left: 0;
     font-size: 20px;
     line-height: 20px;
   }
@@ -166,6 +174,7 @@
   .additional-product__specification {
     width: auto;
     margin: 0;
+    margin-top: 8px;
     font-size: 16px;
     line-height: 20px;
   }
@@ -176,8 +185,8 @@
 
   .additional-product__order {
     width: 100%;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 13px;
+    margin-bottom: 15px;
   }
 
   .additional-product__promo {
@@ -194,7 +203,7 @@
 
   .additional-product__promo-text {
     padding: 0;
-    padding-top: 75px;
+    padding-top: 72px;
     margin-left: 423px;
     text-align: left;
   }
@@ -206,7 +215,7 @@
   }
 
   .additional-product__merge legend {
-    top: -21px;
+    top: -25px;
     transform: translate(-650px, 0);
   }
 
@@ -219,7 +228,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 88px;
+    margin-top: 91px;
   }
 
   .additional-product__list {
@@ -251,7 +260,7 @@
   .additional-product__order {
     width: 245px;
     margin: 0;
-    margin-top: 16px;
+    margin-top: 15px;
     margin-bottom: 16px;
   }
 
@@ -269,7 +278,7 @@
 
   .additional-product__promo-text {
     padding: 0;
-    padding-top: 190px;
+    padding-top: 188px;
     margin-left: 37px;
     text-align: center;
   }

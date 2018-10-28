@@ -52,6 +52,10 @@
   }
 }
 
+.cat-data__item:last-child input {
+  max-width: 142px;
+}
+
 @media (min-width: $tablet-width) {
   .cat-data {
     width: 630px;
