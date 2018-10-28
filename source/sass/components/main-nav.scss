@@ -84,12 +84,14 @@
   }
 
   .main-nav__list {
-    width: 440px;
+    width: 475px;
+    margin-left: -35px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .main-nav__list {
-    width: 480px;
+    width: 515px;
+    margin-left: -35px;
   }
 }

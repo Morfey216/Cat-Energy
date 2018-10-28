@@ -97,8 +97,10 @@
   }
 }
 
-.client-data__item:last-child input {
-  max-width: 146px;
+@media (max-width: $tablet-width - 1) {
+  .client-data__item:last-child input {
+    max-width: 146px;
+  }
 }
 
 @media (min-width: $tablet-width) {
