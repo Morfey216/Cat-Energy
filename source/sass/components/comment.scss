@@ -1,7 +1,7 @@
 .comment {
   position: relative;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 42px;
   padding: 0;
   border: none;
   border-top: 3px solid #68b738;
@@ -9,7 +9,7 @@
 
 .comment__title {
   position: absolute;
-  top: -16px;
+  top: -17px;
   left: 50%;
   transform: translate(-160px, 0);
   width: 160px;
@@ -25,8 +25,8 @@
   width: 280px;
   min-height: 150px;
   margin: 0 auto;
-  margin-top: 35px;
-  padding: 15px 13px;
+  margin-top: 42px;
+  padding: 12px 13px;
   resize: none;
   font-size: 16px;
   line-height: 18px;
@@ -37,14 +37,15 @@
 
 @media (min-width: $tablet-width) {
   .comment {
+    margin-bottom: 54px;
     padding: 0;
   }
 
   .comment__title {
     top: -26px;
     transform: translate(-354px, 0);
-    width: 260px;
-    padding: 0 40px;
+    width: 257px;
+    padding: 0 37px;
     font-size: 36px;
     line-height: 36px;
   }
@@ -54,7 +55,7 @@
     min-height: 174px;
     margin: 87px auto;
     margin-bottom: 33px;
-    padding: 13px;
+    padding: 10px 17px;
     font-size: 20px;
     line-height: 30px;
   }
@@ -62,11 +63,13 @@
 
 @media (min-width: $desktop-width) {
   .comment {
+    margin-bottom: 56px;
     padding: 0;
   }
 
   .comment__title {
-    top: -26px;
+    top: -25px;
+    padding: 0 38px;
     transform: translate(-650px, 0);
   }
 

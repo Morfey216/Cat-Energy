@@ -1,20 +1,21 @@
 .program-selection {
   width: 100%;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .program-selection__data-wrapper {
-  margin-bottom: 42px;
+  margin-bottom: 43px;
 }
 
 .program-selection__title {
   width: 280px;
-  margin: 30px auto;
+  margin: 15px auto;
 }
 
 .program-selection__description {
   width: 270px;
-  margin: 30px auto;
+  margin: 25px auto;
+  margin-bottom: 38px;
   padding-right: 10px;
   font-size: 14px;
   line-height: 18px;
@@ -33,7 +34,7 @@
 }
 
 .program-selection__remark {
-  margin-top: 24px;
+  margin-top: 21px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 16px;
@@ -44,12 +45,12 @@
 @media (min-width: $tablet-width) {
   .program-selection {
     margin: 0 auto;
-    margin-top: 45px;
-    margin-bottom: 70px;
+    margin-top: 58px;
+    margin-bottom: 72px;
   }
 
   .program-selection__title {
-    width: 708px;
+    width: 715px;
     margin-bottom: 55px;
   }
 
@@ -62,7 +63,7 @@
   }
 
   .program-selection__data-wrapper {
-    margin-bottom: 97px;
+    margin-bottom: 98px;
   }
 
   .program-selection__submit-wrapper {
@@ -79,7 +80,7 @@
   }
 
   .program-selection__remark {
-    width: 315px;
+    width: 316px;
     margin: 0;
     margin-left: 30px;
     font-size: 16px;
@@ -90,7 +91,7 @@
 
 @media (min-width: $desktop-width) {
   .program-selection {
-    margin-bottom: 83px;
+    margin-bottom: 82px;
   }
 
   .program-selection__title {
@@ -101,7 +102,7 @@
 
   .program-selection__description {
     margin: 0 auto;
-    margin-bottom: 55px;
+    margin-bottom: 65px;
     padding-right: 895px;
   }
 
@@ -109,7 +110,7 @@
     display: flex;
     width: 1300px;
     margin: 0 auto;
-    margin-bottom: 70px;
+    margin-bottom: 92px;
   }
 
   .program-selection__submit-wrapper {
