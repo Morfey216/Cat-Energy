@@ -8,7 +8,7 @@
 
 .contacts__description {
   padding-top: 28px;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
 }
 
 .contacts__map {
@@ -21,7 +21,7 @@
   .contacts__description {
     padding: 0;
     padding-top: 66px;
-    margin-bottom: 50px;
+    margin-bottom: 57px;
   }
 
   .contacts__map {
@@ -37,12 +37,13 @@
   .contacts__description {
     position: absolute;
     box-sizing: border-box;
-    left: 110px;
-    top: 95px;
+    top: 96px;
+    left: 50%;
+    transform: translate(-610px, 0);
     width: 570px;
     margin: 0;
-    padding: 70px 76px;
-    padding-bottom: 54px;
+    padding: 65px 76px;
+    padding-bottom: 58px;
     background-color: #ffffff;
   }
 

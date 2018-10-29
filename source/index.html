@@ -10,24 +10,26 @@
     <header class="page-header">
       <div class="page-header__logo-wrapper">
         <a class="page-header__logo logo">
-          <img class="logo__image" src="img/logo-mobile.svg" width="191" height="38" alt="Cat Energy Logo">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="img/logo-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+            <img class="logo__image" src="img/logo-mobile.svg" alt="Cat Energy Logo">
+          </picture>
         </a>
       </div>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list main-menu">
-            <li class="main-menu__item main-menu__item--promo main-menu__item--active main-menu__item--promo-active">
-              <a>Главная</a>
-            </li>
-            <li class="main-menu__item main-menu__item--promo">
-              <a href="catalog.html">Каталог продукции</a>
-            </li>
-            <li class="main-menu__item main-menu__item--promo">
-              <a href="form.html">Подбор программы</a>
-            </li>
-          </ul>
-        </div>
+      <nav class="main-nav main-nav--opened main-nav--nojs">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__list main-menu">
+          <li class="main-menu__item main-menu__item--promo main-menu__item--active main-menu__item--promo-active">
+            <a>Главная</a>
+          </li>
+          <li class="main-menu__item main-menu__item--promo">
+            <a href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="main-menu__item main-menu__item--promo">
+            <a href="form.html">Подбор программы</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="page-main">
@@ -35,7 +37,11 @@
         <div class="food-promo__wrapper">
           <h1 class="food-promo__title">Функциональное питание для котов</h1>
           <p class="food-promo__slogan">Занялся собой? Займись котом!</p>
-          <img class="food-promo__image" src="img/index-can-mobile@1x.png" width="280" height="271" alt="CatEnergy - Курица">
+          <picture>
+            <source media="(min-width: 1300px)" srcset="img/index-can-desktop@1x.png">
+            <source media="(min-width: 768px)" srcset="img/index-can-tablet@1x.jpg">
+            <img class="food-promo__image" src="img/index-can-mobile@1x.png" alt="CatEnergy - Курица">
+          </picture>
           <a class="button button--height food-promo__program-select" href="form.html">Подобрать программу</a>
         </div>
       </section>
@@ -59,18 +65,22 @@
         <ul class="advantages__list">
           <li class="advantages__item advantages__item--useful">
             <h3 class="visually-hidden">Полезно</h3>
+            <span class="advantages__number">1</span>
             <p class="advantages__description">Функциональное питание содержит только полезные питательные вещества.</p>
           </li>
           <li class="advantages__item advantages__item--fast">
             <h3 class="visually-hidden">Быстро</h3>
+            <span class="advantages__number">2</span>
             <p class="advantages__description">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
           </li>
           <li class="advantages__item advantages__item--functionally">
             <h3 class="visually-hidden">Функционально</h3>
+            <span class="advantages__number">3</span>
             <p class="advantages__description">Замените один-два приема обычной еды на наше функциональное питание.</p>
           </li>
           <li class="advantages__item advantages__item--effect">
             <h3 class="visually-hidden">Результативно</h3>
+            <span class="advantages__number">4</span>
             <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
           </li>
         </ul>
@@ -99,10 +109,18 @@
           <div class="example-slider">
             <ul class="example-slider__list">
               <li class="example-slider__item example-slider__item--before example-slider__item--checked">
-                <img src="img/before-mobile@1x.png" width="320" height="240" alt="До начала программы">
+                <picture>
+                  <source media="(min-width: 1300px)" srcset="img/before-desktop@1x.png">
+                  <source media="(min-width: 768px)" srcset="img/before-tablet@1x.png">
+                  <img class="example-slider__image" src="img/before-mobile@1x.png" alt="До начала программы">
+                </picture>
               </li>
               <li class="example-slider__item example-slider__item--after">
-                <img src="img/after-mobile@1x.png" width="320" height="240" alt="После окончания программы">
+                <picture>
+                  <source media="(min-width: 1300px)" srcset="img/after-desktop@1x.png">
+                  <source media="(min-width: 768px)" srcset="img/after-tablet@1x.png">
+                  <img class="example-slider__image" src="img/after-mobile@1x.png" alt="После окончания программы">
+                </picture>
               </li>
             </ul>
             <div class="example-slider__toggle slider-control">
@@ -120,7 +138,7 @@
       <section class="contacts">
         <div class="contacts__description company">
           <h3 class="company__invite">Приглашаем  к сотрудничеству  дилеров!</h3>
-          <p class="company__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+          <p class="company__address">ул. Большая Конюшенная, д. 19/8 <span>Санкт-Петербург</span></p>
         </div>
         <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1413.2242185980288!2d30.32290167229655!3d59.93876510797791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sby!4v1538295723646" width="320" height="362" allowfullscreen></iframe>
       </section>
@@ -151,6 +169,6 @@
         </div>
       </div>
     </footer>
-
+    <script src="js/menu-toggle.js"></script>
   </body>
 </html>

@@ -1,31 +1,34 @@
 .additionally {
+  position: relative;
   margin: 0;
-  margin-top: 24px;
-  margin-bottom: 17px;
+  margin-bottom: 14px;
   padding: 0;
   border: none;
   border-top: 3px solid #68b738;
 }
 
 .additionally__title {
-  width: 170px;
-  margin-bottom: 22px;
-  padding-bottom: 6px;
-  padding-left: 20px;
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translate(-160px, 0);
+  width: 180px;
+  padding: 0 20px;
   font-size: 24px;
   line-height: 24px;
+  background-color: #ffffff;
 }
 
 .additionally__list {
   width: 280px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 47px;
   padding: 0;
   list-style: none;
 }
 
 .additionally__item {
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 
 .additionally__description {
@@ -41,10 +44,10 @@
 .program-select__checkbox + label::before {
   content: "";
   position: absolute;
-  top: -4px;
+  top: -2px;
   left: 0;
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border: 1px solid #cdcdcd;
 }
 
@@ -72,17 +75,15 @@
 
 @media (min-width: $tablet-width) {
   .additionally {
-    width: $tablet-width;
     padding: 0;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
   }
 
   .additionally__title {
+    top: -26px;
+    transform: translate(-354px, 0);
     width: 290px;
-    padding: 0;
-    margin-left: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 37px;
     font-size: 36px;
     line-height: 36px;
   }
@@ -92,17 +93,17 @@
     flex-wrap: wrap;
     width: 690px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 78px;
   }
 
   .additionally__item {
-    width: 315px;
+    width: 314px;
     margin-left: 30px;
     margin-bottom: 50px;
   }
 
   .additionally__description {
-    padding-left: 59px;
+    padding-left: 57px;
     font-size: 20px;
     line-height: 20px;
   }
@@ -110,27 +111,28 @@
   .program-select__checkbox + label::before {
     content: "";
     position: absolute;
-    top: -6px;
-    left: 0;
-    width: 40px;
-    height: 40px;
+    top: -5px;
+    left: -1px;
+    width: 38px;
+    height: 38px;
   }
 
   .program-select__checkbox:checked + label::after {
-    top: 8px;
-    left: 11px;
+    top: 7px;
+    left: 9px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .additionally {
-    width: $desktop-width;
     padding: 0;
     margin-bottom: 70px;
   }
 
   .additionally__title {
-    margin-left: 70px;
+    top: -25px;
+    padding: 0 38px;
+    transform: translate(-650px, 0);
   }
 
   .additionally__list {
