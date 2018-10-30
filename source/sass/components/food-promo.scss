@@ -4,6 +4,10 @@
     background-size: 320px 305px, 100% 305px;
     background-repeat: no-repeat;
     background-position: 50% 0;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/index-background-mobile@2x.jpg"), linear-gradient(to bottom, #64a83b 0%, #64a83b 100%);
+    }
   }
 }
 
@@ -121,6 +125,10 @@
       background-position: right top, left top;
       background-repeat: no-repeat;
       z-index: -1;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/index-background-desktop@2x.jpg"), linear-gradient(to bottom, #64a83b 0%, #64a83b 100%);
+      }
     }
   }
 
