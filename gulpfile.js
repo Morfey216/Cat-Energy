@@ -5,6 +5,8 @@ var sass = require("gulp-sass");
 var plumber = require("gulp-plumber");
 var imagemin = require("gulp-imagemin");
 var webp = require("gulp-webp");
+var rename = require('gulp-rename');
+var svgstore = require('gulp-svgstore');
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
@@ -23,6 +25,15 @@ gulp.task("webp", function () {
   return gulp.src("source/img/**/*.{png,jpg}")
     .pipe(webp({quality: 80}))
     .pipe(gulp.dest("source/img/webp"));
+});
+
+gulp.task("sprite", function () {
+  return gulp.src("source/img/active-*.svg")
+    .pipe(svgstore({
+      inlineSvg: true
+    }))
+    .pipe(rename("sprite.svg"))
+    .pipe(gulp.dest("source/img"));
 });
 
 gulp.task("css", function () {
