@@ -19,16 +19,23 @@
 }
 
 .copyright__logo {
-  width: 27px;
-  height: 34px;
+  //width: 27px;
+  //height: 34px;
 
-  &:hover path {
+  &:hover .copyright__logo-icon {
     fill: rgba(104, 183, 56, 1);
   }
 
-  &:active path {
+  &:active .copyright__logo-icon {
     fill: rgba(104, 183, 56, 0.3);
   }
+}
+
+.copyright__logo-icon {
+  width: 41px;
+  height: 41px;
+  fill: #666666;
+  margin-right: -7px;
 }
 
 @media (min-width: $tablet-width) {
