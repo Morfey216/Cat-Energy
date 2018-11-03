@@ -47,13 +47,13 @@
   position: absolute;
 }
 
-.client-data__description-icon path {
+.client-data__description-icon {
   fill: #222222;
 }
 
 .client-data__description-icon--email {
   right: 16px;
-  top: 16px;
+  top: 17px;
   width: 17px;
   height: 13px;
 }
@@ -88,11 +88,11 @@
     border: 2px solid #ff8282;
   }
 
-  &:active + svg > path {
+  &:active + svg {
     fill: #68b738;
   }
 
-  &:invalid + svg > path {
+  &:invalid + svg {
     fill: #ff8282;
   }
 }
