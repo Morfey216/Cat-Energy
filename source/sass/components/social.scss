@@ -30,10 +30,33 @@
   fill: #666666;
 
   &:hover {
-    fill: rgba(104, 183, 56, 1);
+    fill: #68b738;
   }
 
   &:active {
-    fill: rgba(104, 183, 56, 0.3);
+    opacity: 0.3;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .social__list {
+    padding: 0;
+    padding-left: 15px;
+    padding-bottom: 3px;
+  }
+
+  .social__link--vkontakte .social__link-icon {
+    width: 30px;
+    height: 16px;
+  }
+
+  .social__link--instagram .social__link-icon {
+    width: 23px;
+    height: 23px;
+  }
+
+  .social__link--facebook .social__link-icon {
+    width: 14px;
+    height: 28px;
   }
 }

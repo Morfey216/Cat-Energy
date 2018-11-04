@@ -23,7 +23,8 @@
 
 @media (min-width: $tablet-width) {
   .page-footer {
-    padding: 56px 0;
+    padding-top: 52px;
+    padding-bottom: 55px;
   }
 
   .page-footer__wripper {
@@ -51,8 +52,8 @@
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    padding-top: 55px;
-    padding-bottom: 56px;
+    padding-top: 50px;
+    padding-bottom: 55px;
   }
 
   .page-footer__wripper {
