@@ -5,7 +5,7 @@
 .page-footer__logo {
   margin: 0 auto;
   padding-top: 39px;
-  padding-bottom: 31px;
+  padding-bottom: 30px;
 }
 
 .page-footer__social {
@@ -17,13 +17,14 @@
 }
 
 .page-footer__copyright {
-  padding-top: 24px;
+  padding-top: 18px;
   padding-bottom: 24px;
 }
 
 @media (min-width: $tablet-width) {
   .page-footer {
-    padding: 56px 0;
+    padding-top: 52px;
+    padding-bottom: 55px;
   }
 
   .page-footer__wripper {
@@ -51,8 +52,8 @@
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    padding-top: 55px;
-    padding-bottom: 56px;
+    padding-top: 50px;
+    padding-bottom: 55px;
   }
 
   .page-footer__wripper {

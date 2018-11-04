@@ -10,10 +10,15 @@
   box-sizing: border-box;
   font-size: 16px;
   line-height: 20px;
+  padding: 0;
   padding-bottom: 1px;
+  background-color: transparent;
+  color: #111111;
   text-transform: uppercase;
+  border: none;
   border-bottom: 1px dotted rgba(17, 17, 17, 0.23);
   cursor: pointer;
+  outline: none;
 
   &:hover {
     border-bottom: 1px solid rgba(17, 17, 17, 0.4);
@@ -56,6 +61,7 @@
   .slider-control__choice {
     margin: 0;
     padding: 0;
+    padding-bottom: 5px;
     font-size: 20px;
     line-height: 20px;
   }
@@ -68,6 +74,7 @@
     position: relative;
     width: 428px;
     height: 6px;
+    margin-bottom: 6px;
     background-color: #dcdcdc;
     border-radius: 3px;
 
