@@ -45,6 +45,7 @@
     width: 35px;
     height: 6px;
     background-color: #68b738;
+    border: none;
     border-radius: 3px;
   }
 }
@@ -83,6 +84,7 @@
     background-color: #ffffff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    outline: none;
 
     &::after {
       content: "";
