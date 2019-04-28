@@ -24,7 +24,8 @@
     "posthtml-include": "^1.2.0",
     "stylelint": "9.6.x",
     "stylelint-config-htmlacademy": "0.1.x",
-    "deep-extend": ">=0.5.1"
+    "deep-extend": ">=0.5.1",
+    "merge": ">=1.2.1"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
